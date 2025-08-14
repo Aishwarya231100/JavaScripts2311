@@ -16,9 +16,9 @@ console.log(MyName);
 
 // Heap - Use non Primituve data type
 
-let UserOne{                             // You can change the origanal vaule 
-    email: "abc@gmail.com";
-    UPI: "User@ybl";
+let UserOne = {                             // You can change the origanal vaule 
+    email: "abc@gmail.com",
+    UPI: "User@ybl",
 }
 
 let UserTwo = UserOne;
@@ -26,4 +26,5 @@ UserTwo.email = "xyz@gmail.com";
 
 console.log(UserOne);
 console.log(UserTwo);    // OP = xyz@gmail.com
+
 
